@@ -19,7 +19,9 @@ function draw(){
         }      
 
     }//end if 
-fill(255, 255, 255);
+
+    fill(255, 255, 255);
     circle(mouseX, mouseY, diameter);
     console.log(diameter);
+    
 }//end draw
