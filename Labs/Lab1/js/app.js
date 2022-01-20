@@ -1,7 +1,6 @@
 //Edvin Cortez
 //1/20/2022
 //n220
-//Comment the algorithm in the code
 
 let black = 0;
 let weightNum = 2;
