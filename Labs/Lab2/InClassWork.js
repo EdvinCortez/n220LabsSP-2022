@@ -9,6 +9,9 @@ function setup(){
 
 function draw(){
     background(0, 0 , 0);
+    fill(255, 255, 255);
+    circle(mouseX, mouseY, diameter);
+    console.log(diameter);
 
     if (mouseIsPressed){
         if (diameter == 50){
@@ -20,8 +23,4 @@ function draw(){
 
     }//end if 
 
-    fill(255, 255, 255);
-    circle(mouseX, mouseY, diameter);
-    console.log(diameter);
-    
 }//end draw
