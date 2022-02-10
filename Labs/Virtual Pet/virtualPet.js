@@ -17,7 +17,9 @@ function draw(){
 
     //if mouse is down then subtract one from offset else, add one
     if (mouseIsPressed){
-        pet.offsetX -= 1;
+        if (pet.offsetX != 0){
+            pet.offsetX -= 1;
+        }
 
     } else {
         pet.offsetX += 1;
