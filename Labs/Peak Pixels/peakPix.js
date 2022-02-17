@@ -19,6 +19,7 @@ newEl.addEventListener("click", function() {
     //variables to hold the width and height
     let width = newEl.offsetWidth;
     let height = newEl.offsetHeight;
+    
     //increase sizes by 10% each click
     newEl.style.width = (width+(width*.1)) + "px";
     newEl.style.height = (height+(height*.1)) + "px";
